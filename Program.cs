@@ -16,7 +16,7 @@ namespace AccountLockOutCheck
             PrincipalContext ctx = new PrincipalContext(ContextType.Domain);
 
             // find a user
-            UserPrincipal user = UserPrincipal.FindByIdentity(ctx, "Sarvesh Yerawar");
+            UserPrincipal user = UserPrincipal.FindByIdentity(ctx, "First Last");
 
             if (user != null)
             {
